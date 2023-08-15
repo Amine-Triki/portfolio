@@ -3,6 +3,13 @@
     --light-color:#a8c9fa;
     --second-color:#0000ff;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Lemonada', cursive;
 }
@@ -21,3 +28,25 @@ body {
     color:var(--second-color);
 }
 /* end nav*/
+
+/* start settings box */
+.settings-box {
+    width:200px;
+    left: -200px;
+    min-height: 100vh;
+    transition: 0.3s;
+}
+.settings-box.open {
+    left :0;
+}
+.settings-box .toggle-settings{
+    right: -30px;
+    top: 100px;
+    cursor: pointer;
+}
+
+.settings-box .toggle-settings .fa-gear{
+    padding: 8px 0;
+    width: 30px;
+}
+/* end settings box */
