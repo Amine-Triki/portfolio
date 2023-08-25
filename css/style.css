@@ -1,7 +1,7 @@
 :root{
     --light-color:#F7F8F9;
     --main-color:#a8c9fa;
-    --second-color:#0000ff;
+    --second-color:#f00;
 }
 
 * {
@@ -17,6 +17,7 @@ body {
 /* start nav*/
 .navbar {
     background-color: var(--main-color);
+    z-index: 1;
 }
 .navbar .navbar-nav .nav-link, #time{
     color:var(--light-color);
@@ -28,6 +29,12 @@ body {
     color:var(--second-color);
 }
 /* end nav*/
+
+/* section */
+section{
+    z-index: 1000;
+}
+/* section */
 
 /* start settings box */
 .settings-box {

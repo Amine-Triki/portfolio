@@ -63,6 +63,21 @@ colorsli.forEach(li => {
         // add active class on self 
         e.target.classList.add("active");
 
+
+        /* // change second color
+        if (e.target.dataset.color === "#a8c9fa") {
+            document.documentElement.style.setProperty('--second-color' , "#f00");
+        } else if (e.target.dataset.color === "#427624") {
+            document.documentElement.style.setProperty('--second-color' , "#0ff");
+        } else if (e.target.dataset.color === "#762473") {
+            document.documentElement.style.setProperty('--second-color' , "#ff0");
+        }else if (e.target.dataset.color === "#847625") {
+            document.documentElement.style.setProperty('--second-color' , "#f0f");
+        } else {
+            document.documentElement.style.setProperty('--second-color' , "#93B0EF");
+        }
+
+         */
     });
 });
 
