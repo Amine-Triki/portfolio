@@ -112,3 +112,80 @@ border: 3px solid #ddd;
 }
 
 /* end settings box */
+
+
+/* start landing*/
+.landing{
+    background-color: var(--light-color);
+    min-height: calc(100vh - 78px);
+}
+
+main .container h3 {
+max-width: 370px;
+}
+
+.resume{
+    background-color: var(--main-color);
+    color: var(--second-color);
+}
+
+.resume:hover{
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+
+/* end landing*/
+
+/* start Skills*/
+.main-title::after {
+    content:"";
+    width: 60px;
+    height: 2px;
+    background-color: var(--second-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: ligne;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/*  start keyframes */
+@keyframes ligne {
+    0% {
+       transform-origin: right bottom;
+    }
+   
+    50%{
+        transform: rotateX(90deg);
+    }
+    100%{
+        transform-origin: left bottom;
+    }
+    
+}
+/* end keyframes */
+
+.progress {
+    position: relative;
+    height: 20px;
+    background-color: #fff;
+    margin: 10px;
+  }
+  .progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #cd5c5c;
+    transition: width 0.3s linear;
+  }
+/* end Skills*/
+
+/*  start footer */
+footer {
+    background-color: var(--main-color);
+    color: var(--second-color);
+}
+
+/* end footer*/
