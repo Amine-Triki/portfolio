@@ -177,7 +177,7 @@ max-width: 370px;
     left: 0;
     top: 0;
     height: 100%;
-    background-color: #cd5c5c;
+    background-color: var(--main-color);
     transition: width 0.3s linear;
   }
 /* end Skills*/
@@ -189,3 +189,15 @@ footer {
 }
 
 /* end footer*/
+
+/*  start contact */
+form , #touch{ 
+    flex: 1;
+}
+@media  (max-width: 992px) {
+    #flex {
+        flex-direction: column;
+    }
+}
+
+/*end contact */
