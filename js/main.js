@@ -15,9 +15,9 @@ if (mainColors !== null ) {
 
   // change second color
   if ( mainColors === "#a8c9fa") {
-    document.documentElement.style.setProperty('--second-color' , "#C79471");
+    document.documentElement.style.setProperty('--second-color' , "#7d3707");
 } else if ( mainColors === "#427624") {
-    document.documentElement.style.setProperty('--second-color' , "#9CDBAD");
+    document.documentElement.style.setProperty('--second-color' , "#014b15");
 } else if (mainColors  === "#762473") {
     document.documentElement.style.setProperty('--second-color' , "#A8A723");
 }else if (mainColors  === "#847625") {
@@ -82,9 +82,9 @@ colorsli.forEach(li => {
 
             // change second color
                 if ( e.target.dataset.color === "#a8c9fa") {
-                    document.documentElement.style.setProperty('--second-color' , "#C79471");
+                    document.documentElement.style.setProperty('--second-color' , "#7d3707");
                 } else if ( e.target.dataset.color === "#427624") {
-                    document.documentElement.style.setProperty('--second-color' , "#9CDBAD");
+                    document.documentElement.style.setProperty('--second-color' , "#014b15");
                 } else if (e.target.dataset.color  === "#762473") {
                     document.documentElement.style.setProperty('--second-color' , "#A8A723");
                 }else if (e.target.dataset.color  === "#847625") {

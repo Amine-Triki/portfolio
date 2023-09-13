@@ -1,7 +1,7 @@
 :root{
     --dark-color:#494949;
     --main-color:#a8c9fa;
-    --second-color:#C79471;
+    --second-color:#7d3707;
 }
 
 * {
@@ -47,6 +47,7 @@ section{
     left :0;
 }
 .settings-box .toggle-settings{
+    background-color: #494949;
     right: -30px;
     top: 100px;
     cursor: pointer;
