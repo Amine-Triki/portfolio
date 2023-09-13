@@ -1,5 +1,5 @@
 :root{
-    --light-color:#F7F8F9;
+    --dark-color:#494949;
     --main-color:#a8c9fa;
     --second-color:#C79471;
 }
@@ -20,7 +20,7 @@ body {
     z-index: 1;
 }
 .navbar .navbar-nav .nav-link, #time{
-    color:var(--light-color);
+    color:var(--dark-color);
 }
 .navbar .navbar-nav .nav-link.active ,
 .navbar .navbar-nav .nav-link:focus ,
@@ -116,7 +116,7 @@ border: 3px solid #ddd;
 
 /* start landing*/
 .landing{
-    background-color: var(--light-color);
+    background-color: var(--dark-color);
     min-height: calc(100vh - 78px);
 }
 
